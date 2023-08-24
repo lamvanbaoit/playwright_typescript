@@ -1,5 +1,5 @@
 import { test } from '@playwright/test';
-import LoginPage from '../pages/LoginPage';
+import LoginPage from '../pageObjects/LoginPage_Demo';
 
 test('demo first', async ({ page }) => {
    let username: string = 'standard_user';
